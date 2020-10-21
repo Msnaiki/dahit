@@ -1,0 +1,217 @@
+body {
+  background-color: #000;
+  color: white;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .side_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  width: 15%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(94%, #1F1F1F), to(#FFF));
+  background: linear-gradient(180deg, #1F1F1F 94%, #FFF 100%);
+}
+
+body .container .side_menu h1 {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid white;
+}
+
+body .container .side_menu ul {
+  padding: 0;
+}
+
+body .container .side_menu ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 10px 0 10px 0;
+  height: 50px;
+  border: 1px solid white;
+}
+
+body .container .side_menu ul li a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+body .right_side {
+  width: 100%;
+}
+
+body .right_side #menu_hea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  background-color: #1F1F1F;
+  height: 50px;
+}
+
+body .right_side #menu_hea i {
+  color: white;
+  margin: 0 20px 0 20px;
+}
+
+body .right_side .profile_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .right_side .profile_content .board {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+}
+
+body .right_side .profile_content .board .card_p {
+  background-color: #1F1F1F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2vw;
+}
+
+body .right_side .profile_content .board .card_p img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  top: -50px;
+}
+
+body .right_side .profile_content .board .card_p .section_text .container_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .right_side .profile_content .board .card_p .section_text .container_text h3 {
+  margin-right: 20px;
+}
+
+body .right_side .profile_content .board .card_p .section_text .container_text p {
+  color: #5E5E5E;
+}
+
+body .right_side .profile_content .graphs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+}
+
+body .right_side .profile_content .graphs .health_p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .right_side .profile_content .graphs .health_p .coeur, body .right_side .profile_content .graphs .health_p .temperature, body .right_side .profile_content .graphs .health_p .oxygene {
+  background-color: #1F1F1F;
+  width: 300px;
+  padding: 0 20px 0 20px;
+}
+
+body .right_side .profile_content .graphs .health_p .coeur h2, body .right_side .profile_content .graphs .health_p .temperature h2, body .right_side .profile_content .graphs .health_p .oxygene h2 {
+  border-bottom: 1px solid #5E5E5E;
+}
+
+body .right_side .profile_content .graphs .health_p .coeur .stat_values, body .right_side .profile_content .graphs .health_p .temperature .stat_values, body .right_side .profile_content .graphs .health_p .oxygene .stat_values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .right_side .profile_content .record_p {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .right_side .profile_content .record_p .table-dark {
+  width: 100%;
+  background-color: #1F1F1F;
+}
+
+body .right_side .profile_content .record_p .table-dark thead tr {
+  height: 8vh;
+}
+
+body .right_side .profile_content .record_p .table-dark thead tr th {
+  border-bottom: 2px solid black;
+  margin: 0%;
+  padding: 0%;
+}
+
+body .right_side .profile_content .record_p .table-dark tbody tr {
+  height: 5vh;
+  border-bottom: 2px solid black;
+}
+
+body .right_side .profile_content .record_p .table-dark tbody tr th {
+  color: #6f6f6f;
+}
+/*# sourceMappingURL=style.css.map */
